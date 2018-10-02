@@ -1,0 +1,6 @@
+USERID='/ as sysdba'
+directory=EXPORTECWN
+tables=spstatus.MTN_UGANDA_SP_20180704,spstatus.MTN_UGANDA_20180704,spstatus.MTN_UGANDA_TIME_20180704
+dumpfile=export_ecw_%U.r
+logfile=exports_ecw.log
+parallel=1

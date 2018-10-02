@@ -1,0 +1,4 @@
+SET LONG 1000000
+SET LINESIZE 3000
+SET PAGESIZE 0
+SELECT 'X'||','||open_mode FROM v$database;
